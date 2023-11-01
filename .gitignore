@@ -1,0 +1,9 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/BookShop/.vs
+/BookShop/BookShop.BL/obj
+/BookShop/BookShop.DataAccess/obj
+/BookShop/BookShop.WebAPI/bin/Debug/net7.0
+/BookShop/BookShop.WebAPI/obj
