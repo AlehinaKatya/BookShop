@@ -4,6 +4,11 @@
 
 /BookShop/.vs
 /BookShop/BookShop.BL/obj
+/BookShop/BookShop.BL/bin
 /BookShop/BookShop.DataAccess/obj
+/BookShop/BookShop.DataAccess/bin
 /BookShop/BookShop.WebAPI/bin/Debug/net7.0
 /BookShop/BookShop.WebAPI/obj
+/BookShop/BookShop.WebAPI/logs
+/BookShop/BookShop.UnitTest/obj
+/BookShop/BookShop.UnitTest/bin
