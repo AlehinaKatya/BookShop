@@ -2,6 +2,6 @@
 {
     public class BookShopSettings
     {
-        //здесь будут приложения, например, строка подключения к бд
+        public string BookShopDbContextConnectionString { get; set; }
     }
 }
