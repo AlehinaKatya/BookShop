@@ -2,6 +2,13 @@
 
 namespace BookShop.DataAccess.Entities
 {
+    public enum StatusOfOrder
+    {
+        Adopted, // принят
+        ReadyToShip, // готов к отправке
+        OnTheWay, // в пути
+        ReadyToIssue // готов к выдаче
+    }
     [Table("orders")]
     public class OrderEntity : BaseEntity
     {
@@ -11,6 +18,6 @@ namespace BookShop.DataAccess.Entities
         public int PointOfDeliveryId { get; set; }
         public PointOfDeliveryEntity PointOfDelivery { get; set; }
 
-        public int Status { get; set; }
+        public StatusOfOrder Status { get; set; }
     }
 }

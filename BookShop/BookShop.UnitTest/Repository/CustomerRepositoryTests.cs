@@ -10,7 +10,7 @@ namespace BookShop.UnitTest.Repository
     public class CustomerRepositoryTests : RepositoryTestsBaseClass
     {
         [Test]
-        public void GetAllUsersTest()
+        public void GetAllCustomersTest()
         {
             //prepare
             using var context = DbContextFactory.CreateDbContext();
@@ -55,7 +55,7 @@ namespace BookShop.UnitTest.Repository
         }
 
         [Test]
-        public void GetAllUsersWithFilterTest()
+        public void GetAllCustomersWithFilterTest()
         {
             //prepare
             using var context = DbContextFactory.CreateDbContext();
@@ -101,7 +101,7 @@ namespace BookShop.UnitTest.Repository
         }
 
         [Test]
-        public void SaveNewUserTest()
+        public void SaveNewCustomersTest()
         {
             //prepare
             using var context = DbContextFactory.CreateDbContext();
@@ -138,7 +138,7 @@ namespace BookShop.UnitTest.Repository
         }
 
         [Test]
-        public void UpdateUserTest()
+        public void UpdateCustomerTest()
         {
             //prepare
             using var context = DbContextFactory.CreateDbContext();
@@ -174,7 +174,7 @@ namespace BookShop.UnitTest.Repository
 
 
         [Test]
-        public void DeleteUserTest()
+        public void DeleteCustomerTest()
         {
             //prepare
             using var context = DbContextFactory.CreateDbContext();

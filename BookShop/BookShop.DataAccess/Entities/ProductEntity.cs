@@ -29,7 +29,7 @@ namespace BookShop.DataAccess.Entities
     {
         public string Title { get; set; }
         public int Price { get; set; }
-        public int Status { get; set; }
+        public StatusOfProduct Status { get; set; }
         public string Annotation { get; set; }
 
         public int PublishingHouseId { get; set; }
@@ -38,8 +38,8 @@ namespace BookShop.DataAccess.Entities
         public int LanguageId { get; set; }
         public LanguageEntity Language { get; set; }
 
-        public int ProductType { get; set; }
-        public int CoverType { get; set; }
+        public TypeOfProduct ProductType { get; set; }
+        public TypeOfCover CoverType { get; set; }
         public int YearOfPublication { get; set; }
 
         public virtual ICollection<ProductAuthorEntity> ProductsAuthors { get; set; }
