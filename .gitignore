@@ -12,3 +12,5 @@
 /BookShop/BookShop.WebAPI/logs
 /BookShop/BookShop.UnitTest/obj
 /BookShop/BookShop.UnitTest/bin
+/.vs
+/BookShop/BookShop.BL.UnitTest/obj
