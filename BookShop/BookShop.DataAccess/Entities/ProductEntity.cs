@@ -3,33 +3,12 @@ using System.Data.SqlTypes;
 
 namespace BookShop.DataAccess.Entities
 {
-    public enum TypeOfProduct
-    {
-        PaperBook,
-        EBook,
-        AudioBook
-    }
-
-    public enum TypeOfCover
-    {
-        Hardcover, //твердый переплет
-        Softcover // мягкий переплет
-    }
-
-    public enum StatusOfProduct
-    {
-        OnSale, // в продаже
-        OutOfStock, // нет в продаже
-        Pending, // ожидается
-        PreOrder // предзаказ
-    }
-
     [Table("products")]
     public class ProductEntity : BaseEntity
     {
         public string Title { get; set; }
         public int Price { get; set; }
-        public StatusOfProduct Status { get; set; }
+        public string Status { get; set; }
         public string Annotation { get; set; }
 
         public int PublishingHouseId { get; set; }
@@ -38,8 +17,7 @@ namespace BookShop.DataAccess.Entities
         public int LanguageId { get; set; }
         public LanguageEntity Language { get; set; }
 
-        public TypeOfProduct ProductType { get; set; }
-        public TypeOfCover CoverType { get; set; }
+        public string ProductType { get; set; }
         public int YearOfPublication { get; set; }
 
         public virtual ICollection<ProductAuthorEntity> ProductsAuthors { get; set; }

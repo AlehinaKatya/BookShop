@@ -36,12 +36,11 @@ namespace BookShop.UnitTest.Repository
             {
                 Title = "Test1",
                 Price = 500,
-                Status = 0,
+                Status = "Test1",
                 Annotation = "Test1",
                 PublishingHouseId = publishingHouse.Id,
                 LanguageId = language.Id,
-                ProductType = 0,
-                CoverType = 0,
+                ProductType = "Test1",
                 YearOfPublication = 2023,
                 ExternalId = Guid.NewGuid()
             },
@@ -49,12 +48,11 @@ namespace BookShop.UnitTest.Repository
             {
                 Title = "Test2",
                 Price = 600,
-                Status = 0,
+                Status = "Test2",
                 Annotation = "Test2",
                 PublishingHouseId = publishingHouse.Id,
                 LanguageId = language.Id,
-                ProductType = 0,
-                CoverType = 0,
+                ProductType = "Test2",
                 YearOfPublication = 2022,
                 ExternalId = Guid.NewGuid()
             }
@@ -99,12 +97,11 @@ namespace BookShop.UnitTest.Repository
             {
                 Title = "Test1",
                 Price = 500,
-                Status = 0,
+                Status = "Test1",
                 Annotation = "Test1",
                 PublishingHouseId = publishingHouse.Id,
                 LanguageId = language.Id,
-                ProductType = 0,
-                CoverType = 0,
+                ProductType = "Test1",
                 YearOfPublication = 2023,
                 ExternalId = Guid.NewGuid()
             },
@@ -112,12 +109,11 @@ namespace BookShop.UnitTest.Repository
             {
                 Title = "Test2",
                 Price = 600,
-                Status = 0,
+                Status = "Test2",
                 Annotation = "Test2",
                 PublishingHouseId = publishingHouse.Id,
                 LanguageId = language.Id,
-                ProductType = 0,
-                CoverType = 0,
+                ProductType = "Test2",
                 YearOfPublication = 2022,
                 ExternalId = Guid.NewGuid()
             }
@@ -163,12 +159,11 @@ namespace BookShop.UnitTest.Repository
             {
                 Title = "Test1",
                 Price = 500,
-                Status = 0,
+                Status = "Test1",
                 Annotation = "Test1",
                 PublishingHouseId = publishingHouse.Id,
                 LanguageId = language.Id,
-                ProductType = 0,
-                CoverType = 0,
+                ProductType = "Test1",
                 YearOfPublication = 2023,
                 ExternalId = Guid.NewGuid()
             };
@@ -215,12 +210,11 @@ namespace BookShop.UnitTest.Repository
             {
                 Title = "Test1",
                 Price = 500,
-                Status = 0,
+                Status = "Test1",
                 Annotation = "Test1",
                 PublishingHouseId = publishingHouse.Id,
                 LanguageId = language.Id,
-                ProductType = 0,
-                CoverType = 0,
+                ProductType = "Test1",
                 YearOfPublication = 2023,
                 ExternalId = Guid.NewGuid()
             };
@@ -268,12 +262,11 @@ namespace BookShop.UnitTest.Repository
             {
                 Title = "Test1",
                 Price = 500,
-                Status = 0,
+                Status = "Test1",
                 Annotation = "Test1",
                 PublishingHouseId = publishingHouse.Id,
                 LanguageId = language.Id,
-                ProductType = 0,
-                CoverType = 0,
+                ProductType = "Test1",
                 YearOfPublication = 2023,
                 ExternalId = Guid.NewGuid()
             };
@@ -316,12 +309,11 @@ namespace BookShop.UnitTest.Repository
             {
                 Title = "Test1",
                 Price = 500,
-                Status = 0,
+                Status = "Test1",
                 Annotation = "Test1",
                 PublishingHouseId = publishingHouse.Id,
                 LanguageId = language.Id,
-                ProductType = 0,
-                CoverType = 0,
+                ProductType = "Test1",
                 YearOfPublication = 2023,
                 ExternalId = Guid.NewGuid()
             },
@@ -329,12 +321,11 @@ namespace BookShop.UnitTest.Repository
             {
                 Title = "Test2",
                 Price = 600,
-                Status = 0,
+                Status = "Test1",
                 Annotation = "Test2",
                 PublishingHouseId = publishingHouse.Id,
                 LanguageId = language.Id,
-                ProductType = 0,
-                CoverType = 0,
+                ProductType = "Test1",
                 YearOfPublication = 2022,
                 ExternalId = Guid.NewGuid()
             }
@@ -378,12 +369,11 @@ namespace BookShop.UnitTest.Repository
             {
                 Title = "Test1",
                 Price = 500,
-                Status = 0,
+                Status = "Test1",
                 Annotation = "Test1",
                 PublishingHouseId = publishingHouse.Id,
                 LanguageId = language.Id,
-                ProductType = 0,
-                CoverType = 0,
+                ProductType = "Test1",
                 YearOfPublication = 2023,
                 ExternalId = Guid.NewGuid()
             },
@@ -391,12 +381,11 @@ namespace BookShop.UnitTest.Repository
             {
                 Title = "Test2",
                 Price = 600,
-                Status = 0,
+                Status = "Test2",
                 Annotation = "Test2",
                 PublishingHouseId = publishingHouse.Id,
                 LanguageId = language.Id,
-                ProductType = 0,
-                CoverType = 0,
+                ProductType = "Test2",
                 YearOfPublication = 2022,
                 ExternalId = Guid.NewGuid()
             }
