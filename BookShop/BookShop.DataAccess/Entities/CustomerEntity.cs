@@ -1,10 +1,15 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Identity;
 
 namespace BookShop.DataAccess.Entities
 {
     [Table("customers")]
-    public class CustomerEntity : BaseEntity
+    public class CustomerEntity : IdentityUser<int>, IBaseEntity
     {
+        public Guid ExternalId { get; set; }
+        public DateTime ModificationTime { get; set; }
+        public DateTime CreationTime { get; set; }
+
         public string Surname { get; set; }
         public string Name { get; set; }
         public string Patronymic { get; set; }
@@ -16,5 +21,9 @@ namespace BookShop.DataAccess.Entities
 
         public virtual ICollection<ReviewEntity> Reviews {  get; set; }
         public virtual ICollection<ShoppingBasketEntity> ShoppingBaskets { get; set; }
+    }
+
+    public class CustomerRoleEntity : IdentityRole<int>
+    {
     }
 }
