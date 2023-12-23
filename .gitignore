@@ -14,3 +14,6 @@
 /BookShop/BookShop.UnitTest/bin
 /.vs
 /BookShop/BookShop.BL.UnitTest/obj
+/BookShop/BookShop.WebAPI.UnitTests/bin/Debug/net7.0
+/BookShop/BookShop.BL.UnitTest/bin/Debug/net7.0
+/BookShop/BookShop.WebAPI.UnitTests/obj
